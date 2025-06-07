@@ -32,17 +32,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-<<<<<<< HEAD
+
 .pnpm-debug.log*
-
-# env files (can opt-in for committing if needed)
 .env*
-=======
-
-# local env files
 .env*.local
-.env
->>>>>>> 7b0d01e53877a1154a0a9a4453af9e0a46ded366
 
 # vercel
 .vercel
@@ -50,9 +43,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-<<<<<<< HEAD
 
-# clerk configuration (can include secrets)
 /.clerk/
-=======
->>>>>>> 7b0d01e53877a1154a0a9a4453af9e0a46ded366
+
