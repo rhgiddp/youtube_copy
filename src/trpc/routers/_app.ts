@@ -1,15 +1,15 @@
-import { usersRouter } from '../../../public/modules/users/server/procedures';
-import { studioRouter } from '../../../public/modules/studio/server/procedures';
+import { usersRouter } from '@/modules/users/server/procedures';
+import { studioRouter } from '@/modules/studio/server/procedures';
 import { videosRouter } from '@/scripts/videos/server/procedures';
-import { searchRouter } from '../../../public/modules/search/server/procedures';
-import { commentsRouter } from '../../../public/modules/comments/server/procedures';
-import { playlistsRouter } from '../../../public/modules/playlists/server/procedures';
-import { categoriesRouter } from '../../../public/modules/categories/server/procedures';
-import { videoViewsRouter } from '../../../public/modules/video-views/server/procedures';
-import { suggestionsRouter } from '../../../public/modules/suggestions/server/procedures';
-import { subscriptionsRouter } from '../../../public/modules/subscriptions/server/procedures';
+import { searchRouter } from '@/modules/search/server/procedures';
+import { commentsRouter } from '@/modules/comments/server/procedures';
+import { playlistsRouter } from '@/modules/playlists/server/procedures';
+import { categoriesRouter } from '@/modules/categories/server/procedures';
+import { videoViewsRouter } from '@/modules/video-views/server/procedures';
+import { suggestionsRouter } from '@/modules/suggestions/server/procedures';
+import { subscriptionsRouter } from '@/modules/subscriptions/server/procedures';
 import { videoReactionsRouter } from '@/modules/video-reactions/server/procedures';
-import { commentReactionsRouter } from '../../../public/modules/comment-reactions/server/procedures';
+import { commentReactionsRouter } from '@/modules/comment-reactions/server/procedures';
 
 import { createTRPCRouter } from '../init';
 
